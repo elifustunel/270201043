@@ -2,14 +2,11 @@ password = input("Write a password: ")
 while True:
     answer = input("Write the password: ")
     if answer == password:
-        print("You are in")
+        print("Welcome")
         exit()
-    elif answer.lower() == "help":
+    elif answer.lower()== "help": #HELP,help
         print(password[0])
         continue
-    elif answer == "I give up":
-        exit()
     else:
-        print("""YOU DON'T KNOW THE PASSWORD DUDE WHO ARE YOU""")
+        print("Wrong")
         continue
-

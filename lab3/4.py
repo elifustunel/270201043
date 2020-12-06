@@ -10,3 +10,4 @@ elif 6<age<18  :
 else:
   print(ticket)
 
+
