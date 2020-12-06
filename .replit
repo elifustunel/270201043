@@ -1,2 +1,2 @@
 languages="python3"
-run="python  p.py"
+run="python  lab6/4.py"
